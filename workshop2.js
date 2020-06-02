@@ -55,6 +55,62 @@ function showSlides2(n) {
 
 }
 
+// drie
+var slideIndex3 = 1;
+showSlides3(slideIndex3);
+
+// Next/previous controls
+function plusSlides3(n) {
+  showSlides3(slideIndex3 += n);
+}
+
+// Thumbnail image controls
+function currentSlide3(n) {
+  showSlides3(slideIndex3 = n);
+}
+
+function showSlides3(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides3");
+
+  if (n > slides.length) {slideIndex3 = 1}
+  if (n < 1) {slideIndex3 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+ 
+  slides[slideIndex3-1].style.display = "block";
+
+}
+
+// vier
+var slideIndex4 = 1;
+showSlides4(slideIndex4);
+
+// Next/previous controls
+function plusSlides4(n) {
+  showSlides4(slideIndex4 += n);
+}
+
+// Thumbnail image controls
+function currentSlide4(n) {
+  showSlides4(slideIndex4 = n);
+}
+
+function showSlides4(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides4");
+
+  if (n > slides.length) {slideIndex4 = 1}
+  if (n < 1) {slideIndex4 = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+ 
+  slides[slideIndex4-1].style.display = "block";
+
+}
+
 
 
 
