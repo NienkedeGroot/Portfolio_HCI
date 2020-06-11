@@ -73,6 +73,15 @@ p {
 	font-weight: 400;
 }
 
+.research img {
+	width: 420px;
+	height: 315px;
+	grid-column-start: 2;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	align-self: center;
+}
+
 .grid-container {
 	display: grid;
 	margin: 30px 100px; 
